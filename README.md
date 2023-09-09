@@ -2,7 +2,9 @@
 
 <!-- dynamic typing effect 动态打字效果 -->
 <p align="center">
-  <img  src="https://readme-typing-svg.demolab.com?font=Kanit&weight=800&size=28&pause=1000&color=2196F3&center=true&vCenter=true&multiline=true&repeat=false&width=435&lines=Hi+%F0%9F%91%8B%2C+I'm+Lehman"  alt="Typing SVG"/>
+  <a  target="_blank" href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Kanit&weight=800&size=28&pause=1000&color=2196F3&center=true&vCenter=true&multiline=true&repeat=false&width=435&lines=Hi+%F0%9F%91%8B%2C+I'm+Lehman" alt="Typing SVG" />
+  </a>
 </p>
 <h3 align="center">A passionate full stack developerr from china</h3>
 
@@ -26,7 +28,7 @@
 </p>
 
 
-<!-- Snake Code Contribution Map 贪吃蛇代码贡献图 -->
+<!-- Snake Code Contribution Map 贪吃蛇代码贡献图(https://github.com/Platane/snk) -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Lehman1024/Lehman1024/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Lehman1024/Lehman1024/output/github-contribution-grid-snake.svg">
