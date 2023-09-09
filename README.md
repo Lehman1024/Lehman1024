@@ -2,7 +2,7 @@
 
 <!-- dynamic typing effect 动态打字效果 -->
 <p align="center">
-  <a  target="_blank" href="https://git.io/typing-svg">
+  <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.demolab.com?font=Kanit&weight=800&size=28&pause=1000&color=2196F3&center=true&vCenter=true&multiline=true&repeat=false&width=435&lines=Hi+%F0%9F%91%8B%2C+I'm+Lehman" alt="Typing SVG" />
   </a>
 </p>
@@ -12,16 +12,16 @@
 
 <!-- profile logo 个人资料徽标 -->
 <p align="center">
-  <a target="_blank" href="https://www.lehman.top/">
+  <a href="https://www.lehman.top/">
     <img src="https://img.shields.io/badge/Site-@逐风者-rgb(33%20150%20243).svg" />
   </a>
-  <a target="_blank" href="https://blog.lehman.top/">
+  <a href="https://blog.lehman.top/">
     <img src="https://img.shields.io/badge/Blog-@Lehman-rgb(229%2067%2033).svg" />
   </a>
-  <a target="_blank" href="https://disk.windseeker.link/">
+  <a href="https://disk.windseeker.link/">
     <img src="https://img.shields.io/badge/Disk-@追风网盘-rgb(133%20206%2097).svg"/>
   </a>
-  <a target="_blank" href="https://github.com/Lehman1024">
+  <a href="https://github.com/Lehman1024">
     <img src="https://img.shields.io/badge/-GitHub-ffffff?logo=GitHub&logoColor=000&style=flat.svg"/>
   </a>
  
