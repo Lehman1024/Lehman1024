@@ -27,7 +27,11 @@
 
 
 <!-- Snake Code Contribution Map 贪吃蛇代码贡献图 -->
-<img src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/profile-snake-contrib/github-contribution-grid-snake-dark.svg" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Lehman1024/Lehman1024/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Lehman1024/Lehman1024/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Lehman1024/Lehman1024/output/github-contribution-grid-snake.svg">
+</picture>
 
 
 <!-- GitHub 奖杯🏆 -->
