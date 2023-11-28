@@ -20,8 +20,8 @@
   <a href="https://disk.windseeker.link/" target="_blank">
     <img src="https://img.shields.io/badge/Disk-@追风网盘-rgb(33%20150%20243).svg"/>
   </a>
-  <a href="https://chat-api.windseeker.link/" target="_blank">
-    <img src="https://img.shields.io/badge/Chat-@One Chat-rgb(133%20206%2097).svg"/>
+  <a href="https://chat.windseeker.link/" target="_blank">
+    <img src="https://img.shields.io/badge/Chat-@ChatGPT-rgb(133%20206%2097).svg"/>
   </a>
   <a href="https://github.com/Lehman1024" target="_blank">
     <img src="https://img.shields.io/badge/-GitHub-ffffff?logo=GitHub&logoColor=000&style=flat.svg"/>
