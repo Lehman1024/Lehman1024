@@ -8,49 +8,62 @@
 </p>
 <h3 align="center">A passionate full stack developerr from china</h3>
 
----
 
 <!-- profile logo 个人资料徽标 -->
 <p align="center">
-  <a href="https://www.lehman.top/">
+  <a href="https://www.lehman.top/" target="_blank">
     <img src="https://img.shields.io/badge/Site-@逐风者-rgb(33%20150%20243).svg" />
   </a>
-  <a href="https://blog.lehman.top/">
+  <a href="https://blog.lehman.top/" target="_blank">
     <img src="https://img.shields.io/badge/Blog-@Lehman-rgb(229%2067%2033).svg" />
   </a>
-  <a href="https://disk.windseeker.link/">
+  <a href="https://disk.windseeker.link/" target="_blank">
     <img src="https://img.shields.io/badge/Disk-@追风网盘-rgb(133%20206%2097).svg"/>
   </a>
-  <a href="https://github.com/Lehman1024">
+  <a href="https://one-api.windseeker.link/" target="_blank">
+    <img src="https://img.shields.io/badge/Chat-@One Chat-rgb(133%20206%2097).svg"/>
+  </a>
+  <a href="https://github.com/Lehman1024" target="_blank">
     <img src="https://img.shields.io/badge/-GitHub-ffffff?logo=GitHub&logoColor=000&style=flat.svg"/>
   </a>
- 
 </p>
 
+---
 
 <!-- Snake Code Contribution Map 贪吃蛇代码贡献图(https://github.com/Platane/snk) -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Lehman1024/Lehman1024/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Lehman1024/Lehman1024/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Lehman1024/Lehman1024/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Lehman1024/Lehman1024/output/github-contribution-grid-snake.svg" width="100%">
 </picture>
 
+
+---
+
+
+### Genshin
+<img src="https://genshin-card.himiku.com/rand/222323272.png" alt="genshin-card" />
+
+
+---
 
 <!-- GitHub 奖杯🏆 -->
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=Lehman1024&theme=gruvbox&row=1&column=6&no-frame=true&no-bg=true" />
 </p>
 
+---
 
 <!-- GitHub Stats -->
 <h2 align="center">GitHub Stats:</h3>
 <p  align="center" >
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Lehman1024&layout=compact" alt="Lehman1024" />
 </p>
-  
+
 | <img src="https://streak-stats.demolab.com/?user=Lehman1024" alt="Lehman1024" />   |  <img src="https://github-readme-stats.vercel.app/api?username=Lehman1024&show_icons=true" alt="Lehman1024" />   |
 | :----- | :--: |
 
+---
 
 <!--  skill badge 技能徽章 -->
 💪 学如逆水行舟,不进则退
@@ -77,12 +90,6 @@
 
 ![Git Badge](https://img.shields.io/badge/-Git-f05032?style=flat-square&logo=git&logoColor=fff)
 ![Git Badge](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=fff)
-
----
-
-### Genshin
-<img src="https://genshin-card.himiku.com/rand/222323272.png" alt="genshin-card" />
-
 
 
 
