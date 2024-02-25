@@ -41,12 +41,6 @@
 ---
 
 
-### Genshin
-<img src="https://genshin-card.himiku.com/rand/222323272.png" alt="genshin-card" />
-
-
----
-
 <!-- GitHub 奖杯🏆 -->
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=Lehman1024&theme=gruvbox&row=1&column=6&no-frame=true&no-bg=true" />
@@ -55,10 +49,10 @@
 ---
 
 <!-- GitHub Stats -->
-<h2 align="center">GitHub Stats:</h3>
-<p  align="center" >
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Lehman1024&layout=compact" alt="Lehman1024" />
-</p>
+<h2 align="center">Coding Life:</h3>
+
+| <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Lehman1024&layout=compact" alt="Lehman1024" />   |  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Lehman1024&theme=vue" alt="Lehman1024" />   |
+| :----- | :--: |
 
 | <img src="https://streak-stats.demolab.com/?user=Lehman1024" alt="Lehman1024" />   |  <img src="https://github-readme-stats.vercel.app/api?username=Lehman1024&show_icons=true" alt="Lehman1024" />   |
 | :----- | :--: |
