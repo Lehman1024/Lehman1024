@@ -1,0 +1,83 @@
+/**
+ * Render the original jade dragon companion for the cultivation profile cards.
+ *
+ * @author Lehman+AI
+ * @site https://www.lehman.top
+ * @since 2026/10/10 17:27
+ */
+
+/** Return a self-contained SVG group, designed for a 320 × 240 viewBox. */
+export function renderDragon() {
+  return `<g id="dragon-art" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <defs>
+    <linearGradient id="dragon-jade" x1="0" y1="0" x2=".8" y2="1">
+      <stop offset="0" stop-color="#b8eed5"/>
+      <stop offset="1" stop-color="#5aad96"/>
+    </linearGradient>
+    <linearGradient id="dragon-horn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f7e5b1"/>
+      <stop offset="1" stop-color="#c5a65d"/>
+    </linearGradient>
+    <radialGradient id="dragon-pearl">
+      <stop offset="0" stop-color="#f3f6d9"/>
+      <stop offset=".65" stop-color="#d6e8b4"/>
+      <stop offset="1" stop-color="#7cbba0"/>
+    </radialGradient>
+    <style>
+      #dragon-art .dragon-float { animation: dragon-hover 6s ease-in-out infinite; }
+      #dragon-art .dragon-breath { transform-box: fill-box; transform-origin: 50% 100%; animation: dragon-breathe 6s ease-in-out infinite; }
+      @keyframes dragon-hover { 0%,100% { transform: translateY(1px); } 50% { transform: translateY(-2px); } }
+      @keyframes dragon-breathe { 0%,100% { transform: scale(1); } 50% { transform: scale(1.012); } }
+      @media (prefers-reduced-motion: reduce) { #dragon-art .dragon-float, #dragon-art .dragon-breath { animation: none; } }
+    </style>
+  </defs>
+  <ellipse cx="165" cy="213" rx="100" ry="9" fill="#061d18" opacity=".36"/>
+  <g class="dragon-float">
+    <path d="M57 206c-13-7-7-21 5-20 0-13 17-19 27-9 8-8 24-8 30 3 9-5 21-1 23 8h82c1-13 21-19 29-7 12-8 28 0 25 12 18-3 23 19 7 21H67c-9 0-13-3-10-8Z" fill="#29564c"/>
+    <path d="M80 197c-7-11 9-20 16-11 8-11 26-8 26 5m105 3c6-10 18-10 24-1m-192 12h40m-8 9h43m85-7h58" stroke="#75a18a" stroke-width="1.5" opacity=".58"/>
+    <path d="M116 207h92" stroke="#bca469" stroke-width="1.2" opacity=".52"/>
+    <g class="dragon-breath" stroke="#173e36" stroke-width="2.8">
+      <path d="M194 176c24 11 46 14 57-4 10-17-5-27-16-16-5 5-4 10 1 13-17 1-24-18-13-31 16-18 44-7 47 13 5 32-28 56-61 50l-28-8Z" fill="#69baa0"/>
+      <path d="m223 139 1-12 11 4 8-13 9 11 14-2-4 14" fill="#487d65"/>
+      <path d="M247 138c20 3 18 27 5 35" stroke="#b5e4bd" stroke-width="3"/>
+      <path d="M149 118c25-5 45 9 55 27 11 19 16 34 7 46-11 16-55 16-73 2-19-15-15-47-8-60Z" fill="url(#dragon-jade)"/>
+      <path d="m181 124 12-10 4 15 13-3-1 16 13 5-10 10" fill="#d0b776"/>
+      <path d="M148 133c-13 18-14 42-1 57 9 11 35 12 44 3 12-13-1-41-17-57Z" fill="#d8e7ba"/>
+      <path d="m142 156 41-3m-41 16 49-4m-44 17 46-5m-35 16 28-2" stroke="#a9c497" stroke-width="1.5"/>
+      <path d="M138 181c-15-2-23 6-23 13 0 9 20 11 32 4 7-5 0-13-9-17Zm57 1c15-5 24 1 25 10 1 10-21 14-33 7-6-4 0-12 8-17Z" fill="#77c5a6"/>
+      <path d="m124 194 1 5m9-5 1 5m68-7 2 7m8-8 2 5" stroke="#d9edc4" stroke-width="2"/>
+      <path d="M126 145c-8-2-19 0-22 10-3 9 8 14 17 8l12-9m47-10c14-4 26 3 25 13-1 9-16 11-22 3l-9-8" fill="#8bd2b2"/>
+      <circle cx="152" cy="159" r="21" fill="url(#dragon-pearl)" stroke="#c6db9b" stroke-width="1.5"/>
+      <path d="M140 155c1-6 5-9 10-10" stroke="#fff7d9" stroke-width="3" opacity=".9"/>
+      <path d="M123 152c4-3 12-3 14 1 4 8-9 15-14 9m59-10c-6-5-13-4-15 1-3 8 7 13 14 9" fill="#a3ddbd"/>
+      <path d="m128 156 4 3m42-2-3 3" stroke="#568f76" stroke-width="1.5"/>
+      <path d="m182 59 20 6-7 10 16 9-14 12 9 15-19 5 3 17-22-8-4 12-17-13" fill="#428a76"/>
+      <path d="m109 105-16 14 15 1-3 15 19-8 8 14 12-14 15 11 5-16" fill="#559e80"/>
+      <path d="M110 65 94 49c-14 8-15 25 4 33m80-18 23-13c9 11 5 25-11 30" fill="#79b99a"/>
+      <path d="m97 58 4 13m97-11-8 12" stroke="#c9e6b9" stroke-width="2"/>
+      <path d="M119 62c-10-13-15-26-10-39 1-4 6-4 7 0l2 15 8-9c3-3 7 0 5 4l-9 17 9 12Zm46-4c12-8 19-21 18-34-1-5 5-7 7-2l2 14 10-7c4-2 7 2 3 6l-16 14-12 17Z" fill="url(#dragon-horn)"/>
+      <path d="M97 72c9-21 34-29 60-23 27 6 42 29 35 52-3 11-10 22-24 28-20 9-45 5-57-6-15-2-25-13-23-26 1-8 4-16 9-25Z" fill="url(#dragon-jade)"/>
+      <path d="M102 63c14-15 37-17 55-11" stroke="#d0f0ce" stroke-width="3.2"/>
+      <path d="m134 52 8-12 8 14 10-5-1 13" fill="#4c987a" stroke-width="2"/>
+      <path d="M105 87c4-8 14-9 20-3m28 2c5-7 15-6 20 1" stroke="#346f5d" stroke-width="3"/>
+      <ellipse cx="116" cy="99" rx="9" ry="12" fill="#163d35" stroke="none"/>
+      <ellipse cx="163" cy="99" rx="10" ry="13" fill="#163d35" stroke="none"/>
+      <ellipse cx="113" cy="95" rx="3.3" ry="4" fill="#f3f9e6" stroke="none"/>
+      <ellipse cx="160" cy="94" rx="3.6" ry="4.2" fill="#f3f9e6" stroke="none"/>
+      <circle cx="120" cy="104" r="1.6" fill="#83caaa" stroke="none"/>
+      <circle cx="167" cy="104" r="1.8" fill="#83caaa" stroke="none"/>
+      <ellipse cx="98" cy="109" rx="9" ry="5" fill="#d5b59a" opacity=".58" stroke="none"/>
+      <ellipse cx="180" cy="111" rx="9" ry="5" fill="#d5b59a" opacity=".58" stroke="none"/>
+      <path d="M108 107c9-8 27-7 37 1 8 7 4 18-7 21-17 5-33-3-33-12 0-4 1-7 3-10Z" fill="#b8dfb5" stroke="#538e73" stroke-width="1.5"/>
+      <path d="m116 111 3 1m15-1 3-1" stroke="#477960" stroke-width="3"/>
+      <path d="M121 121c6 4 12 4 18-1" stroke="#3a735d" stroke-width="1.7"/>
+      <path d="M104 116c-18-9-33-8-38-2-6 7 4 12 10 7m71-4c16-5 32-4 40 3 6 5 13 4 16-1" stroke="#e3d199" stroke-width="1.8"/>
+      <path d="m123 132 5 10 8-9 5 6 5-8" fill="#d2e7bd" stroke="#538e73" stroke-width="1.4"/>
+      <path d="m197 169 5 3m-4 6 5 2m-90-94 2-3m66-9 3 2" stroke="#508f73" stroke-width="1.5"/>
+    </g>
+    <path d="m65 65 2-6 2 6 6 2-6 2-2 6-2-6-6-2Zm184 35 1.5-4.5 1.5 4.5 4.5 1.5-4.5 1.5-1.5 4.5-1.5-4.5-4.5-1.5Z" fill="#d5c18b" opacity=".78"/>
+    <circle cx="229" cy="55" r="2" fill="#99c5a5" opacity=".7"/>
+    <circle cx="69" cy="157" r="1.5" fill="#99c5a5" opacity=".7"/>
+  </g>
+</g>`;
+}

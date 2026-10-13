@@ -1,0 +1,16 @@
+{
+  "description": "Original xianxia landscape for Lehman's cultivation-themed GitHub profile",
+  "author": "Lehman+AI",
+  "site": "https://www.lehman.top",
+  "createdDate": "2026-10-10",
+  "generator": "Built-in image_gen",
+  "asset": "immortal-mountains.webp",
+  "dimensions": [1560, 520],
+  "processing": "Resized proportionally and compressed as WebP at quality 85; typography is added separately in SVG.",
+  "inspiration": [
+    "General cultivation-world atmosphere of 凡人修仙传 and 仙逆",
+    "https://www.haowallpaper.com/homeViewLook/17634591815159168",
+    "https://haowallpaper.com/homeViewLook/17839601530228096"
+  ],
+  "prompt": "Use case: stylized-concept\nAsset type: original panoramic 3:1 background illustration for a GitHub profile header.\nPrimary request: A high-end original Chinese xianxia fantasy environment, inspired by general Chinese donghua cultivation aesthetics such as the atmosphere of 凡人修仙传 and 仙逆, but without any named or identifiable existing characters, logos, or text.\nScene/backdrop: Immense sharply sculpted karst peaks rise through layered jade mist and a cloud sea. A distant ancient pavilion and pine trees are subtle environmental details. Ethereal small gold dust motes and a tiny crescent moon.\nSubject: A lone, very tiny anonymous robed cultivator stands on a narrow flying sword in the lower-right, dwarfed by the landscape.\nStyle/medium: Cinematic richly detailed 3D digitally painted environment concept art, premium editorial finish, realistic materials, sharp sculpted mountains, NOT watercolor.\nComposition/framing: Panoramic, landscape 3:1 aspect ratio. The major scene sits in the RIGHT TWO THIRDS. The LEFT 45 PERCENT remains deliberately very dark, restrained, nearly empty atmospheric mist with minimal contrast and clear negative space for a large typeset Chinese title to be added separately. Avoid central bright rays behind the future title. Dramatic sense of scale, uncluttered and calm.\nLighting/mood: Muted champagne-gold dawn rim lighting, mysterious calm atmosphere.\nColor palette: Deep jade green, near-black ink teal, subdued champagne gold.\nText: None.\nConstraints: No text, no logos, no watermark, no code, no UI diagrams, no large cartoon character closeups. Original landscape and original anonymous character. Preserve the left 45 percent as low-contrast dark negative space."
+}

@@ -1,0 +1,59 @@
+# ============================================================================
+# Refresh the cultivation profile from public GitHub data and publish its SVGs.
+#
+# @author Lehman+AI
+# @site https://www.lehman.top
+# @since 2026/10/10 17:30
+# ============================================================================
+
+name: Update cultivation profile
+
+on:
+  schedule:
+    - cron: '17 0 * * *' # 08:17 Asia/Shanghai
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - 'assets/art/**'
+      - '.github/workflows/profile.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cultivation-profile-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify contribution data handling
+        run: node --test scripts/github-data.test.mjs
+      - name: Generate profile artwork
+        run: node scripts/generate-profile.mjs
+        env:
+          PROFILE_USERNAME: ${{ github.repository_owner }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit updated artwork
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add -- assets/profile
+          if git diff --cached --quiet; then
+            echo 'Profile artwork is already up to date.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'chore: refresh cultivation profile'
+          git push

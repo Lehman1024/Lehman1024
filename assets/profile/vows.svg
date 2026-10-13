@@ -1,0 +1,24 @@
+<!--
+道心札记 · 关于 Lehman；由 scripts/generate-profile.mjs 自动生成。
+
+@author Lehman+AI
+@site https://www.lehman.top
+@since 2026/10/10 17:30
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="350" viewBox="0 0 380 350" role="img" aria-label="道心札记 · 关于 Lehman">
+<title>道心札记 · 关于 Lehman</title>
+<defs><linearGradient id="background" x2="1" y2="1"><stop stop-color="#112429"/><stop offset="1" stop-color="#091317"/></linearGradient><linearGradient id="jade"><stop stop-color="#477c6c"/><stop offset="1" stop-color="#b2e4c6"/></linearGradient><clipPath id="frame"><rect x="1" y="1" width="378" height="348" rx="16"/></clipPath></defs>
+<g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Microsoft YaHei,sans-serif">
+<rect x=".75" y=".75" width="378.5" height="348.5" rx="16" fill="url(#background)" stroke="#28413f" stroke-width="1.5"/>
+
+<text x="26" y="37" font-size="12" fill="#dbc28d" letter-spacing="2">道心札记</text>
+<text x="26" y="88" font-size="30" fill="#e8eee5" font-family="Noto Serif SC,Source Han Serif SC,Songti SC,SimSun,serif">逐风而行，</text>
+<text x="26" y="132" font-size="30" fill="#e8eee5" font-family="Noto Serif SC,Source Han Serif SC,Songti SC,SimSun,serif">把灵感写成日常。</text>
+<text x="26" y="182" font-size="12" fill="#92aaa5" >一名来自中国的 Vibe Coding 工程师。</text>
+<text x="26" y="207" font-size="12" fill="#92aaa5" >在代码里造物，也在故事里远行。</text>
+<path d="M26 251Q103 224 192 249T352 238M26 262Q117 237 201 258T352 253" stroke="#43675b" stroke-width="1" fill="none"/>
+<path d="M26 294H354" stroke="#28413f"/>
+<text x="26" y="324" font-size="11" fill="#dbc28d" >风不停，修行不止。</text>
+<text x="354" y="324" font-size="10" fill="#92aaa5" font-family="SFMono-Regular,Consolas,Liberation Mono,monospace" letter-spacing="2" text-anchor="end">LEHMAN</text>
+
+</g></svg>

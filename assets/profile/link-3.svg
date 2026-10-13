@@ -1,0 +1,21 @@
+<!--
+诸天阵法 · 追风导航 · 常用网址，一处抵达；由 scripts/generate-profile.mjs 自动生成。
+
+@author Lehman+AI
+@site https://www.lehman.top
+@since 2026/10/10 17:30
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="96" viewBox="0 0 780 96" role="img" aria-label="诸天阵法 · 追风导航 · 常用网址，一处抵达">
+<title>诸天阵法 · 追风导航 · 常用网址，一处抵达</title>
+<defs><linearGradient id="background" x2="1" y2="1"><stop stop-color="#112429"/><stop offset="1" stop-color="#091317"/></linearGradient><linearGradient id="jade"><stop stop-color="#477c6c"/><stop offset="1" stop-color="#b2e4c6"/></linearGradient><clipPath id="frame"><rect x="1" y="1" width="778" height="94" rx="16"/></clipPath></defs>
+<g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Microsoft YaHei,sans-serif">
+<rect x=".75" width="778.5" height="96" fill="#0d1d21"/><path d="M.75 0V96M779.25 0V96" fill="none" stroke="#28413f" stroke-width="1.5"/>
+
+<path d="M26 0.75H754" stroke="#28413f"/>
+<rect x="24" y="25" width="46" height="46" rx="13" fill="#16312d" stroke="#315347"/>
+<g transform="translate(35 36)" fill="none" stroke="#9cdbbd" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10.5"/><path d="M16 7L14 14L7 17L10 10Z"/><circle cx="12" cy="12" r="1"/></g>
+<text x="86" y="41" font-size="17" fill="#e8eee5" font-weight="500">追风导航</text>
+<text x="86" y="65" font-size="11" fill="#92aaa5" >常用网址，一处抵达</text>
+<path d="M742 33L752 23M744 23H752V31" fill="none" stroke="#dbc28d" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+</g></svg>

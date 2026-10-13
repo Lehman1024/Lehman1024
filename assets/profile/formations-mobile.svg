@@ -1,0 +1,22 @@
+<!--
+诸天阵法 · 方寸之间，连通山海；由 scripts/generate-profile.mjs 自动生成。
+
+@author Lehman+AI
+@site https://www.lehman.top
+@since 2026/10/10 17:30
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="100" viewBox="0 0 380 100" role="img" aria-label="诸天阵法 · 方寸之间，连通山海">
+<title>诸天阵法 · 方寸之间，连通山海</title>
+<defs><linearGradient id="background" x2="1" y2="1"><stop stop-color="#112429"/><stop offset="1" stop-color="#091317"/></linearGradient><linearGradient id="jade"><stop stop-color="#477c6c"/><stop offset="1" stop-color="#b2e4c6"/></linearGradient><clipPath id="frame"><rect x="1" y="1" width="378" height="98" rx="16"/></clipPath></defs>
+<g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Microsoft YaHei,sans-serif">
+<path d="M.75 100V16.75Q.75 .75 16.75 .75H363.25Q379.25 .75 379.25 16.75V100" fill="#0d1d21" stroke="#28413f" stroke-width="1.5"/>
+
+<text x="26" y="30" font-size="12" fill="#dbc28d" letter-spacing="2">诸天阵法</text>
+<text x="26" y="69" font-size="22" fill="#e8eee5" font-family="Noto Serif SC,Source Han Serif SC,Songti SC,SimSun,serif">方寸之间，连通山海。</text>
+<g transform="translate(323 50)" fill="none" stroke="#dbc28d" stroke-width="1">
+  <circle r="31" stroke-opacity=".15"/><circle r="22" stroke-opacity=".3"/>
+  <path d="M0-22L19 11H-19ZM0 22L-19-11H19Z" stroke-opacity=".42"/>
+  <path d="M-39 0H-29M29 0H39M0-39V-29M0 29V39" stroke-opacity=".25"/>
+  <circle r="3" fill="#9cdbbd" stroke="none"/>
+</g>
+</g></svg>
