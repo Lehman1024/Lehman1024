@@ -1497,11 +1497,15 @@
       {
         "date": "2026-10-22",
         "count": 1
+      },
+      {
+        "date": "2026-10-23",
+        "count": 0
       }
     ],
-    "today": 1,
+    "today": 0,
     "currentStreak": 3,
     "longestStreak": 4
   },
-  "updatedAt": "2026-10-22T04:53:25.808Z"
+  "updatedAt": "2026-10-23T04:55:46.701Z"
 }
