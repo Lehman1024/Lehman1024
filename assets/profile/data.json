@@ -1501,11 +1501,15 @@
       {
         "date": "2026-11-20",
         "count": 0
+      },
+      {
+        "date": "2026-11-21",
+        "count": 0
       }
     ],
     "today": 0,
     "currentStreak": 0,
     "longestStreak": 4
   },
-  "updatedAt": "2026-11-20T07:21:40.070Z"
+  "updatedAt": "2026-11-21T07:14:53.380Z"
 }
